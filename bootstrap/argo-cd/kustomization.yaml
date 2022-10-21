@@ -11,6 +11,13 @@ configMapGenerator:
       usernameSecret:
         key: git_username
         name: autopilot-secret
+  - |
+    resource.customizations.ignoreDifferences.admissionregistration.k8s.io_MutatingWebhookConfiguration=jqPathExpressions:
+      - '.webhooks[]?.clientConfig.caBundle'
+  - |
+    resource.customizations.ignoreDifferences.admissionregistration.k8s.io_ValidatingWebhookConfiguration=jqPathExpressions:
+      - '.webhooks[]?.clientConfig.caBundle'
+      - '.webhooks[]?.failurePolicy'
   name: argocd-cm
 kind: Kustomization
 namespace: argocd
