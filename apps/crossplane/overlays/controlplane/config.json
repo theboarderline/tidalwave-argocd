@@ -1,0 +1,11 @@
+{
+  "appName": "crossplane",
+  "userGivenName": "crossplane",
+  "destNamespace": "crossplane-system",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/crossplane/overlays/controlplane",
+  "srcRepoURL": "https://github.com/MavenWave-DevOps/tidalwave-argocd-reference.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}
