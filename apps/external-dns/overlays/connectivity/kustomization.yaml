@@ -3,3 +3,13 @@ kind: Kustomization
 namespace: external-dns
 resources:
 - ../../base
+
+patchesStrategicMerge:
+- sa-patches.yaml
+
+patchesJson6902:
+- target:
+    version: v1
+    kind: Deployment
+    name: external-dns
+  path: deploy-args.yaml
