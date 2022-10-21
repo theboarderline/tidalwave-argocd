@@ -1,0 +1,11 @@
+{
+  "appName": "istio",
+  "userGivenName": "istio",
+  "destNamespace": "istio-system",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/istio/overlays/connectivity",
+  "srcRepoURL": "https://github.com/MavenWave-DevOps/tidalwave-argocd-reference.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}
