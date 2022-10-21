@@ -1,0 +1,11 @@
+{
+  "appName": "external-dns",
+  "userGivenName": "external-dns",
+  "destNamespace": "external-dns",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/external-dns/overlays/connectivity",
+  "srcRepoURL": "https://github.com/MavenWave-DevOps/tidalwave-argocd-reference.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}
