@@ -1,0 +1,11 @@
+{
+  "appName": "istio-ingress",
+  "userGivenName": "istio-ingress",
+  "destNamespace": "istio-ingress",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/istio-ingress/overlays/connectivity",
+  "srcRepoURL": "https://github.com/MavenWave-DevOps/tidalwave-argocd-reference.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}
