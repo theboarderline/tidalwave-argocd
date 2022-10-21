@@ -1,0 +1,11 @@
+{
+  "appName": "opa-gatekeeper",
+  "userGivenName": "opa-gatekeeper",
+  "destNamespace": "gatekeeper-system",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/opa-gatekeeper/overlays/security",
+  "srcRepoURL": "https://github.com/MavenWave-DevOps/tidalwave-argocd-reference.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}
