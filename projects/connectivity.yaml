@@ -37,7 +37,7 @@ spec:
   - git:
       files:
       - path: apps/**/connectivity/config.json
-      repoURL: https://github.com/MavenWave-DevOps/tidalwave-argocd-reference.git
+      repoURL: https://github.com/theboarderline/tidalwave-argocd.git
       requeueAfterSeconds: 20
       revision: ""
       template:
@@ -50,7 +50,7 @@ spec:
   - git:
       files:
       - path: apps/**/connectivity/config_dir.json
-      repoURL: https://github.com/MavenWave-DevOps/tidalwave-argocd-reference.git
+      repoURL: https://github.com/theboarderline/tidalwave-argocd.git
       requeueAfterSeconds: 20
       revision: ""
       template:

@@ -21,7 +21,7 @@ spec:
   project: default
   source:
     path: projects
-    repoURL: https://github.com/MavenWave-DevOps/tidalwave-argocd-reference.git
+    repoURL: https://github.com/theboarderline/tidalwave-argocd.git
   syncPolicy:
     automated:
       allowEmpty: true
